@@ -9,7 +9,7 @@
     &validate=`phone:required`
 ]]
 
-<form method="post" action="[[~38]]">
+<form method="post" action="[[~[[*id]]]]">
     <label>Name (optional): <input type="text" name="name" value="[[!+fi.name]]"></label>
     <span class="error">[[!+fi.error.name]]</span><br>
 
