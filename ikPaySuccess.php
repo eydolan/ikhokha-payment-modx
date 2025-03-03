@@ -147,7 +147,7 @@ if ($paylinkID) {
 
 // Function to send admin email
 function sendAdminEmail($modx, $tvName, $option, $transactionId, $name, $email, $phone, $amount) {
-    $adminEmail = 'phil@servingpixels.com';
+    $adminEmail = 'email here';
     $adminSubject = 'Voucher Codes Exhausted';
     $adminMessage = "The system has run out of voucher codes for $tvName.\n\nDetails:\n- Option: $option\n- Transaction ID: $transactionId\n- User: $name ($email, $phone)\n- Amount: $amount\n- Date: " . date('Y-m-d H:i:s');
     
