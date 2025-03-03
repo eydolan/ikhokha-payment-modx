@@ -1,5 +1,12 @@
 <?php
 
+/*
+this is a modx snippet that initialises the payment gateways see https://dev.ikhokha.com/overview
+
+it takes the entries from a formit hook called ikPayFormHandler
+
+*/
+
 //$modx->log(modX::LOG_LEVEL_ERROR, "Parameters - Amount: [[+amount]], Email: [[+email]], Phone: [[+phone]], Name: [[+name]] [[+opotion]]");
 
 $appKey = $modx->getOption('ikpay_app_key', null, 'APP_KEY');
